@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Freecodecamp API project - Image search microservice</title>
+  <style>
+    html {
+      max-width: 48em;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Image search microservice</h1>
+
+  <h2>User stories</h2>
+  <ol>
+    <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+    <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+    <li>I can get a list of the most recently submitted search strings.</li>
+  </ol>
+
+  <h2>Endpoints</h2>
+  <p>Searches should be done on <code>/search</code> with parameters. E.G: <code>?q=test+query&amp;offset=2</code></p>
+  <p>To see the latest search terms, go to <code>/searches</code>.</p>
+</body>
+</html>
